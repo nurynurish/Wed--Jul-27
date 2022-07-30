@@ -8,14 +8,31 @@
     <title>Age Calculator</title>
 </head>
 <body>
+
+
 <div class="container">
     <form action="">
-    <label for="Please enter your date of birth"></label>
+    <label for="Please enter your year of birth">Please enter your year of birth</label>
     <input type="text" id="birth_year">
-    <input type="submit" value="calculate >>" onclick="birthyear2age()"> 
+    <input type="submit" value="Calculate >>" onclick="birthyear2age()"> 
         <div id="result"></div>
 </form>
-</div>  
-    <script src="script.js"></script>
+</div>
+
+<div class="container_2">
+    <form action="">
+        <label for="Please enter your age">Please enter your age </label>
+        <input type="text" id="birth_day">
+        <input type="submit" value="Calculate >>" onclick="age2birthyear()">
+            <div id="result_2"></div>
+    </form>
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
 </body>
 </html>

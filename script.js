@@ -9,3 +9,16 @@ function birthyear2age(){
     age = current_year - birht_year
     document.getElementById("result").innerHTML = "Your age is " + age;
 }
+
+
+
+function age2birthyear(){
+    event.preventDefault();
+    var birth_day;
+    var age_2;
+    birth_day = document.getElementById("birth_day").value;
+    var d= new Date();
+    current_year = d.getFullYear();
+    age_2 = current_year - birth_day
+    document.getElementById("result_2").innerHTML = "You were born in " + age_2;
+}
